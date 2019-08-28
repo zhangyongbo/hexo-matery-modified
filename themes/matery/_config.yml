@@ -89,17 +89,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/godweiyang
+  url: https://github.com/zhangyongbo
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 792321264
-  github: godweiyang
-  weibo: godweiyang
-  email: weiyang@godweiyang.com
-  zhihu: godweiyang
+  qq: 785419852
+  github: zhangyongbo
+  weibo:
+  email: china.zhangyongbo@gmail.com
+  zhihu:
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -159,19 +159,19 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatars/avatar.jpg
-  career: 华东师范大学 | 计算机科学与技术 | AntNLP
-  introduction: 我是华东师范大学计算机科学与技术专业2018级硕士研究生。直研进入本校计算机系攻读硕士，研究方向是深度学习与自然语言处理。我们实验室是AntNLP，欢迎大家报考！
+  career: JAVA | CMS | ACTIVITI
+  introduction: 一个Java方向的小码农，主要从事CMS系统的研发工作，有多年的智慧政务经验
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
     hexo-matery-modified:
       icon: fa-meetup
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: https://github.com/godweiyang/hexo-matery-modified
+      url: https://github.com/zhangyongbo/hexo-matery-modified
       desc: 我的个性化配置过的博客源码，即下即用。
     ConParser:
         icon: fa-database
@@ -227,12 +227,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: godweiyang
-  repo: godweiyang.github.io
+  owner: zhangyongbo
+  repo: gitalk
   oauth:
-    clientId:
-    clientSecret:
-  admin: godweiyang
+    clientId: 968642bc6faa447e79d0
+    clientSecret: cbbda9af6a5ab1a49a053eab50aa6be46a418da4
+  admin: zhangyongbo
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -274,7 +274,7 @@ valine:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/godweiyang
+  url: https://github.com/zhangyongbo
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -299,7 +299,7 @@ busuanziStatistics:
 # 添加 Google Analytics 配置
 googleAnalytics:
   enable: true
-  id: 
+  id:
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
@@ -335,7 +335,7 @@ libs:
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
-featureImages: 
+featureImages:
 - /medias/featureimages/0.jpg
 - /medias/featureimages/1.jpg
 - /medias/featureimages/2.jpg
