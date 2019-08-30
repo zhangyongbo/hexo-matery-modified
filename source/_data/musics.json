@@ -1,23 +1,751 @@
-[
-	{
-		"name": "夜曲",
-		"artist": "周杰伦",
-		"url": "/medias/music/yequ.mp3",
-		"cover": "https://zhangyongbo.github.io/medias/zyb.jpg"
-	},{
-		"name": "一路向北",
-		"artist": "周杰伦",
-		"url": "/medias/music/yiluxiangbei.mp3",
-		"cover": "/medias/music/avatars/yiluxiangbei.jpg"
-	},{
-		"name": "来自天堂的魔鬼",
-		"artist": "邓紫棋",
-		"url": "/medias/music/tiantangdemogui.mp3",
-		"cover": "/medias/music/avatars/tiantangdemogui.jpg"
-	},{
-		"name": "倒数",
-		"artist": "邓紫棋",
-		"url": "/medias/music/daoshu.mp3",
-		"cover": "/medias/music/avatars/daoshu.jpg"
-	}
-]
+[{
+	"name": "明月天涯",
+	"artist": "五音Jw",
+	"url": "https://music.163.com/song/media/outer/url?id=416388799.mp3",
+	"cover": "http://p1.music.126.net/m3E8aIuHCZ1qGg1WEN2VFA==/17981413160792921.jpg"
+}, {
+	"name": "盗将行",
+	"artist": "花粥,马雨阳",
+	"url": "https://music.163.com/song/media/outer/url?id=574566207.mp3",
+	"cover": "http://p1.music.126.net/-qHPT3rhxDlu5zQV9NcQ-A==/109951163555860423.jpg"
+}, {
+	"name": "出山",
+	"artist": "花粥,王胜娚",
+	"url": "https://music.163.com/song/media/outer/url?id=1313354324.mp3",
+	"cover": "http://p1.music.126.net/xUAfdMHdXhu3BmO4g8nOYA==/109951163573311341.jpg"
+}, {
+	"name": "冥心归墟",
+	"artist": "蔡翊昇",
+	"url": "https://music.163.com/song/media/outer/url?id=465920515.mp3",
+	"cover": "http://p1.music.126.net/kdJ2nFUf_CG5duiDdJdTag==/18577348464747718.jpg"
+}, {
+	"name": "天边外",
+	"artist": "不才",
+	"url": "https://music.163.com/song/media/outer/url?id=33241113.mp3",
+	"cover": "http://p2.music.126.net/0NsramhXlm6t4Kex3v2LSA==/109951163926966859.jpg"
+}, {
+	"name": "醉话江湖",
+	"artist": "河图,月蝕原创音乐",
+	"url": "https://music.163.com/song/media/outer/url?id=493054914.mp3",
+	"cover": "http://p2.music.126.net/Mvvjj5wkXfFRePoUSS2i5Q==/109951162983672767.jpg"
+}, {
+	"name": "既生厌",
+	"artist": "昙骨",
+	"url": "https://music.163.com/song/media/outer/url?id=434070892.mp3",
+	"cover": "http://p2.music.126.net/iIJGX-Unaa0P3yVpMuLdIA==/17664753812207223.jpg"
+}, {
+	"name": "琼花房",
+	"artist": "胡碧乔",
+	"url": "https://music.163.com/song/media/outer/url?id=443194241.mp3",
+	"cover": "http://p2.music.126.net/F_7zR_r5D6M62-tUVfVPKA==/109951162814101771.jpg"
+}, {
+	"name": "天行九歌",
+	"artist": "霍尊",
+	"url": "https://music.163.com/song/media/outer/url?id=414118616.mp3",
+	"cover": "http://p2.music.126.net/YqpP12ONNFkIiX4TAQ62gw==/1410673429302015.jpg"
+}, {
+	"name": "琴师",
+	"artist": "音频怪物",
+	"url": "https://music.163.com/song/media/outer/url?id=184467.mp3",
+	"cover": "http://p2.music.126.net/CTaIU856FZ2snV-nEnLC_g==/118747255813392.jpg"
+}, {
+	"name": "谓风【双笙&流仙】",
+	"artist": "双笙&流仙",
+	"url": "https://music.163.com/song/media/outer/url?id=477803343.mp3",
+	"cover": "http://p2.music.126.net/DQ115Y5Xez0iQrMp-r1AUw==/109951162926174358.jpg"
+}, {
+	"name": "《笑傲江湖》剧情歌",
+	"artist": "楚曌岚,阿册",
+	"url": "https://music.163.com/song/media/outer/url?id=29736144.mp3",
+	"cover": "http://p2.music.126.net/izdGjlRlcR3sx26OXZOiHw==/6631154628171782.jpg"
+}, {
+	"name": "一首想不通的古风",
+	"artist": "玄觞,贰婶,H6",
+	"url": "https://music.163.com/song/media/outer/url?id=526068535.mp3",
+	"cover": "http://p2.music.126.net/bC6HDpzFhj_AZ6efd2ZY2A==/109951163092673022.jpg"
+}, {
+	"name": "画舫烟中浅",
+	"artist": "Pig小优",
+	"url": "https://music.163.com/song/media/outer/url?id=516512122.mp3",
+	"cover": "http://p2.music.126.net/C1rBtNIvfW074MkgN6NVKg==/109951163054279417.jpg"
+}, {
+	"name": "狂浪生",
+	"artist": "一棵小葱",
+	"url": "https://music.163.com/song/media/outer/url?id=463895473.mp3",
+	"cover": "http://p2.music.126.net/76i0_0xlAs2khGigusHloA==/109951162871995115.jpg"
+}, {
+	"name": "风筝误",
+	"artist": "刘珂矣",
+	"url": "https://music.163.com/song/media/outer/url?id=32785674.mp3",
+	"cover": "http://p2.music.126.net/SKujq5vqqv4KYOVFk7SiRA==/3407386538630284.jpg"
+}, {
+	"name": "锦上",
+	"artist": "叶里",
+	"url": "https://music.163.com/song/media/outer/url?id=34182359.mp3",
+	"cover": "http://p2.music.126.net/A1fB7YqYDHBNutp8vhphLA==/17606479695653093.jpg"
+}, {
+	"name": "我的一个道姑朋友（Cover タイナカ彩智 / Lon）",
+	"artist": "纱琉璃Shelley",
+	"url": "https://music.163.com/song/media/outer/url?id=459723209.mp3",
+	"cover": "http://p2.music.126.net/wKElCVgA4tYkwZVTkskDgw==/109951162859809836.jpg"
+}, {
+	"name": "云长",
+	"artist": "赵钶",
+	"url": "https://music.163.com/song/media/outer/url?id=503127217.mp3",
+	"cover": "http://p2.music.126.net/NsGXFKlMr1hDqdrQ5Vg89g==/109951163016436390.jpg"
+}, {
+	"name": "离人愁",
+	"artist": "李袁杰",
+	"url": "https://music.163.com/song/media/outer/url?id=536502758.mp3",
+	"cover": "http://p2.music.126.net/GwuLAjpfZysAB9U5rC9C9g==/109951163248612704.jpg"
+}, {
+	"name": "洛阳夜雨",
+	"artist": "HITA",
+	"url": "https://music.163.com/song/media/outer/url?id=427610806.mp3",
+	"cover": "http://p2.music.126.net/KNkhJSfZsChuAOwp5ad50Q==/18791753231401584.jpg"
+}, {
+	"name": "念",
+	"artist": "石头",
+	"url": "https://music.163.com/song/media/outer/url?id=30482452.mp3",
+	"cover": "http://p2.music.126.net/AjfRV3jS_2wOcgxo3oWb8A==/7885697394624325.jpg"
+}, {
+	"name": "奸雄",
+	"artist": "贰婶",
+	"url": "https://music.163.com/song/media/outer/url?id=415086571.mp3",
+	"cover": "http://p2.music.126.net/Q9izepmpX9PglFPtxwgQ0g==/18260689114425955.jpg"
+}, {
+	"name": "那盏茶",
+	"artist": "金志文",
+	"url": "https://music.163.com/song/media/outer/url?id=27927640.mp3",
+	"cover": "http://p2.music.126.net/Q2IriHmSzoZqZ4s9QdeS6Q==/3409585558713988.jpg"
+}, {
+	"name": "闻战",
+	"artist": "i2star",
+	"url": "https://music.163.com/song/media/outer/url?id=366255.mp3",
+	"cover": "http://p2.music.126.net/tTo6LjFZLQLUFxYRnluF-g==/35184372100892.jpg"
+}, {
+	"name": "醒世文章",
+	"artist": "林斜阳,嫌弃",
+	"url": "https://music.163.com/song/media/outer/url?id=462478986.mp3",
+	"cover": "http://p2.music.126.net/vvRva-GuE1lbGneJFLzBFw==/109951162867608412.jpg"
+}, {
+	"name": "陌上花开",
+	"artist": "小爱的妈",
+	"url": "https://music.163.com/song/media/outer/url?id=439915133.mp3",
+	"cover": "http://p2.music.126.net/VDzqLf2w5SV-VU1FH1AwNg==/6657542906420975.jpg"
+}, {
+	"name": "若某日我封笔",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=525558041.mp3",
+	"cover": "http://p2.music.126.net/G6jjhEcRWZIj1bC9Sq9DQA==/5787829208803716.jpg"
+}, {
+	"name": "凤凰劫",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=101076.mp3",
+	"cover": "http://p2.music.126.net/xHVVFtjMmq4cM9xllO52yQ==/101155069767537.jpg"
+}, {
+	"name": "不见有情",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=496617470.mp3",
+	"cover": "http://p2.music.126.net/UeovQN_fbWqxz2Fcy7m8Kw==/18905002928266397.jpg"
+}, {
+	"name": "不谓侠（Cover 萧忆情Alex）",
+	"artist": "CRITTY",
+	"url": "https://music.163.com/song/media/outer/url?id=482141126.mp3",
+	"cover": "http://p2.music.126.net/DxLp26GCKHfNcmRb_2NErA==/109951162940006105.jpg"
+}, {
+	"name": "缘分一道桥",
+	"artist": "王力宏,谭维维",
+	"url": "https://music.163.com/song/media/outer/url?id=440411424.mp3",
+	"cover": "http://p2.music.126.net/8MW-Aeleuk_gcvc7T2qZJg==/109951163779532550.jpg"
+}, {
+	"name": "葬仙-记狠人大帝（Cover 张杰）",
+	"artist": "叶里,苑舍",
+	"url": "https://music.163.com/song/media/outer/url?id=487593280.mp3",
+	"cover": "http://p2.music.126.net/XaLhRmudzYdt4b8zqUN-9Q==/109951162961283648.jpg"
+}, {
+	"name": "红昭愿",
+	"artist": "音阙诗听",
+	"url": "https://music.163.com/song/media/outer/url?id=452986458.mp3",
+	"cover": "http://p2.music.126.net/8ltR3o9R8uJ9_5Cc71cDhA==/109951162951242154.jpg"
+}, {
+	"name": "典狱司",
+	"artist": "音频怪物",
+	"url": "https://music.163.com/song/media/outer/url?id=422790454.mp3",
+	"cover": "http://p2.music.126.net/VqWZ_QWMF1QTvNxkN70geg==/1387583687741366.jpg"
+}, {
+	"name": "人间朝暮",
+	"artist": "少司命,CRITTY",
+	"url": "https://music.163.com/song/media/outer/url?id=31421862.mp3",
+	"cover": "http://p2.music.126.net/GjrhJ__5m-ybUZi46ZhAfg==/2538772351464052.jpg"
+}, {
+	"name": "醉赤壁",
+	"artist": "林俊杰",
+	"url": "https://music.163.com/song/media/outer/url?id=108478.mp3",
+	"cover": "http://p2.music.126.net/s6zFxvXe5kOxub4_x4rZhQ==/109951163052847567.jpg"
+}, {
+	"name": "采薇",
+	"artist": "HITA",
+	"url": "https://music.163.com/song/media/outer/url?id=239562.mp3",
+	"cover": "http://p2.music.126.net/VKDrbjcpeVnugNXM5FTvtQ==/62672162784172.jpg"
+}, {
+	"name": "湖光水色调",
+	"artist": "i2star",
+	"url": "https://music.163.com/song/media/outer/url?id=28274794.mp3",
+	"cover": "http://p2.music.126.net/0IfSoI2hhLXsctPV6-aBWQ==/3276544652384842.jpg"
+}, {
+	"name": "封刀不为峥嵘",
+	"artist": "漆柚",
+	"url": "https://music.163.com/song/media/outer/url?id=434052631.mp3",
+	"cover": "http://p2.music.126.net/7OqX7PyaDXbmeejCwgo1gg==/18023194602718495.jpg"
+}, {
+	"name": "仙居谣",
+	"artist": "Zz果果,樱九,鸦青",
+	"url": "https://music.163.com/song/media/outer/url?id=33075082.mp3",
+	"cover": "http://p2.music.126.net/xphtETT9CVE-IjRzGx20YA==/7969260279094350.jpg"
+}, {
+	"name": "流云辞·司夏",
+	"artist": "司夏",
+	"url": "https://music.163.com/song/media/outer/url?id=34167956.mp3",
+	"cover": "http://p1.music.126.net/dbNkAQmHi2TUzgkE7Zox1A==/3318326092881882.jpg"
+}, {
+	"name": "灵契",
+	"artist": "Assen捷,五音Jw",
+	"url": "https://music.163.com/song/media/outer/url?id=28660032.mp3",
+	"cover": "http://p1.music.126.net/FPLF1xShAN9dMkrTNfnLlg==/109951163926963485.jpg"
+}, {
+	"name": "白石溪（Cover 洛天依 / 乐正凌）",
+	"artist": "玄觞",
+	"url": "https://music.163.com/song/media/outer/url?id=430787181.mp3",
+	"cover": "http://p1.music.126.net/L0WuU7XiLaSxHDD-P7_oug==/17813187881905001.jpg"
+}, {
+	"name": "殿书",
+	"artist": "奇然",
+	"url": "https://music.163.com/song/media/outer/url?id=420008229.mp3",
+	"cover": "http://p1.music.126.net/wEE0d3rD8ivA0cjzs-gIeQ==/18285977881922556.jpg"
+}, {
+	"name": "苏幕遮",
+	"artist": "张晓棠",
+	"url": "https://music.163.com/song/media/outer/url?id=25640582.mp3",
+	"cover": "http://p1.music.126.net/WnuS2v6i9qKWCHKTxpw4uA==/19025949207225417.jpg"
+}, {
+	"name": "磷火",
+	"artist": "小魂",
+	"url": "https://music.163.com/song/media/outer/url?id=28315292.mp3",
+	"cover": "http://p1.music.126.net/8vwoNNvETMDOGZYH8G5LIA==/6031920790151788.jpg"
+}, {
+	"name": "忘记",
+	"artist": "西瓜JUN",
+	"url": "https://music.163.com/song/media/outer/url?id=430793303.mp3",
+	"cover": "http://p1.music.126.net/SlJ3zw28bs4WotZPVKtPDQ==/17795595695908920.jpg"
+}, {
+	"name": "山有木兮-橙光《人鱼传说之长生烛》主题曲",
+	"artist": "伦桑,橙光音乐",
+	"url": "https://music.163.com/song/media/outer/url?id=425100599.mp3",
+	"cover": "http://p1.music.126.net/q-aYBELr0yWN11Lbtyzsqw==/18190320370352462.jpg"
+}, {
+	"name": "千秋此意",
+	"artist": "司夏,汐音社",
+	"url": "https://music.163.com/song/media/outer/url?id=413829631.mp3",
+	"cover": "http://p1.music.126.net/EX9dtcuR52Tf_8Omb2Jx7A==/17707634765654133.jpg"
+}, {
+	"name": "第三十八年夏至",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=101126.mp3",
+	"cover": "http://p1.music.126.net/Q2dCo2lH53tqJe2zjaC56Q==/3393092900107787.jpg"
+}, {
+	"name": "造梦者",
+	"artist": "以冬",
+	"url": "https://music.163.com/song/media/outer/url?id=32196517.mp3",
+	"cover": "http://p1.music.126.net/SQF5vSrxTZ5myrmVWxFStQ==/3254554419585268.jpg"
+}, {
+	"name": "雅乐寻踪",
+	"artist": "HITA,Aki阿杰,小爱的妈",
+	"url": "https://music.163.com/song/media/outer/url?id=28381289.mp3",
+	"cover": "http://p2.music.126.net/DA8mN9FuPy0vZPUiC7cTdQ==/6046214441340887.jpg"
+}, {
+	"name": "红颜",
+	"artist": "岚AYA",
+	"url": "https://music.163.com/song/media/outer/url?id=33854100.mp3",
+	"cover": "http://p2.music.126.net/gvU5elgCPar8nsUeNWaiOg==/3348012906580223.jpg"
+}, {
+	"name": "万里残阳",
+	"artist": "张江",
+	"url": "https://music.163.com/song/media/outer/url?id=32364340.mp3",
+	"cover": "http://p2.music.126.net/SQF5vSrxTZ5myrmVWxFStQ==/3254554419585268.jpg"
+}, {
+	"name": "黯然销魂",
+	"artist": "玄觞",
+	"url": "https://music.163.com/song/media/outer/url?id=30569561.mp3",
+	"cover": "http://p2.music.126.net/NQRI8EzBd2wrsNNcublcMg==/109951163857115444.jpg"
+}, {
+	"name": "封疆",
+	"artist": "东篱",
+	"url": "https://music.163.com/song/media/outer/url?id=81391.mp3",
+	"cover": "http://p2.music.126.net/Ifu9zQY1k0tF_es5M_GX4w==/123145302324076.jpg"
+}, {
+	"name": "无归",
+	"artist": "叶里",
+	"url": "https://music.163.com/song/media/outer/url?id=404465743.mp3",
+	"cover": "http://p2.music.126.net/0m4bP0wIMUZw0Xf-Ke7yJw==/18358545649376691.jpg"
+}, {
+	"name": "十字迷局",
+	"artist": "HITA",
+	"url": "https://music.163.com/song/media/outer/url?id=33715045.mp3",
+	"cover": "http://p2.music.126.net/gvU5elgCPar8nsUeNWaiOg==/3348012906580223.jpg"
+}, {
+	"name": "天涯",
+	"artist": "孙晔,喵☆酱",
+	"url": "https://music.163.com/song/media/outer/url?id=29567104.mp3",
+	"cover": "http://p2.music.126.net/fhxLLN4eqbX1bW9eGaTmSg==/2538772349388939.jpg"
+}, {
+	"name": "西瓜JUN&泥鳅&方块&叶洛洛-九九八十一",
+	"artist": "卡其漠,西瓜JUN,泥鳅Niko,知性的小方块,叶洛洛",
+	"url": "https://music.163.com/song/media/outer/url?id=407759975.mp3",
+	"cover": "http://p2.music.126.net/AxM2QQoPmrPHgLKSq-z8XQ==/18340953463259130.jpg"
+}, {
+	"name": "九九八十一（Cover：乐正绫 / 洛天依）",
+	"artist": "双笙,南久,易言,樊棋",
+	"url": "https://music.163.com/song/media/outer/url?id=409649830.mp3",
+	"cover": "http://p2.music.126.net/0KcMYyKmWR-6eCkR8znePw==/18198016951567516.jpg"
+}, {
+	"name": "乱舞苍穹——天之痕女声独唱版",
+	"artist": "Tacke竹桑",
+	"url": "https://music.163.com/song/media/outer/url?id=297113.mp3",
+	"cover": "http://p2.music.126.net/R2P6jX0xt3iiM-w99bQLpA==/117647744184797.jpg"
+}, {
+	"name": "缥缃醉",
+	"artist": "刘珂矣",
+	"url": "https://music.163.com/song/media/outer/url?id=34468948.mp3",
+	"cover": "http://p2.music.126.net/SKujq5vqqv4KYOVFk7SiRA==/3407386538630284.jpg"
+}, {
+	"name": "松窗棋罢",
+	"artist": "HITA",
+	"url": "https://music.163.com/song/media/outer/url?id=239539.mp3",
+	"cover": "http://p2.music.126.net/T3iAMoIS72Og3_TD-CcP0w==/76965813957789.jpg"
+}, {
+	"name": "朱砂泪",
+	"artist": "董真",
+	"url": "https://music.163.com/song/media/outer/url?id=224324.mp3",
+	"cover": "http://p2.music.126.net/oNwgwvz7rFfJ515X4Mxnmw==/42880953484389.jpg"
+}, {
+	"name": "清风与我",
+	"artist": "萧忆情Alex",
+	"url": "https://music.163.com/song/media/outer/url?id=35955651.mp3",
+	"cover": "http://p2.music.126.net/EnQ0J1f_-p8S2OunnRiGhA==/3298534885062503.jpg"
+}, {
+	"name": "阳关调",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=101082.mp3",
+	"cover": "http://p2.music.126.net/xHVVFtjMmq4cM9xllO52yQ==/101155069767537.jpg"
+}, {
+	"name": "风起天阑",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=27571862.mp3",
+	"cover": "http://p2.music.126.net/nlocSgc4D7T-h6S3f6IybQ==/6003333487842277.jpg"
+}, {
+	"name": "王侯将相",
+	"artist": "裂天,玉璇玑",
+	"url": "https://music.163.com/song/media/outer/url?id=28315294.mp3",
+	"cover": "http://p2.music.126.net/8vwoNNvETMDOGZYH8G5LIA==/6031920790151788.jpg"
+}, {
+	"name": "好梦如旧",
+	"artist": "HITA,林斜阳",
+	"url": "https://music.163.com/song/media/outer/url?id=28546248.mp3",
+	"cover": "http://p2.music.126.net/D22IKBn-eUq-EebVSbAuJA==/5934064255276851.jpg"
+}, {
+	"name": "江湖写照",
+	"artist": "柏凝",
+	"url": "https://music.163.com/song/media/outer/url?id=35955877.mp3",
+	"cover": "http://p2.music.126.net/EnQ0J1f_-p8S2OunnRiGhA==/3298534885062503.jpg"
+}, {
+	"name": "新霸王别姬",
+	"artist": "W.K.",
+	"url": "https://music.163.com/song/media/outer/url?id=28445961.mp3",
+	"cover": "http://p2.music.126.net/QPpIkYq7T3Ab0X12nrVmjQ==/109951163011486170.jpg"
+}, {
+	"name": "绝世 古龙群侠 大合唱",
+	"artist": "Assen捷,橙翼,天琊",
+	"url": "https://music.163.com/song/media/outer/url?id=28863142.mp3",
+	"cover": "http://p2.music.126.net/IXyIZp__D2uHYVj7NBVrwg==/5985741302175547.jpg"
+}, {
+	"name": "战魂·云隐",
+	"artist": "小魂,玉璇玑",
+	"url": "https://music.163.com/song/media/outer/url?id=28315290.mp3",
+	"cover": "http://p2.music.126.net/8vwoNNvETMDOGZYH8G5LIA==/6031920790151788.jpg"
+}, {
+	"name": "天策·枪魂",
+	"artist": "群星",
+	"url": "https://music.163.com/song/media/outer/url?id=27946478.mp3",
+	"cover": "http://p2.music.126.net/qBfBgInE6Hbyjtet0Ss2Hw==/3407386535537979.jpg"
+}, {
+	"name": "翎羽神",
+	"artist": "小顶顶",
+	"url": "https://music.163.com/song/media/outer/url?id=33599062.mp3",
+	"cover": "http://p2.music.126.net/gvU5elgCPar8nsUeNWaiOg==/3348012906580223.jpg"
+}, {
+	"name": "一身诗意千寻瀑",
+	"artist": "不才",
+	"url": "https://music.163.com/song/media/outer/url?id=28798308.mp3",
+	"cover": "http://p2.music.126.net/5vLpAQplaeMwEuhDO0HXww==/5852700394904058.jpg"
+}, {
+	"name": "英雄寞",
+	"artist": "郑中基",
+	"url": "https://music.163.com/song/media/outer/url?id=28959186.mp3",
+	"cover": "http://p2.music.126.net/370FlbvJbDJ-vX7QwrIYXA==/8987408045456825.jpg"
+}, {
+	"name": "千年缘",
+	"artist": "心然",
+	"url": "https://music.163.com/song/media/outer/url?id=314315.mp3",
+	"cover": "http://p2.music.126.net/dQl5FK6hkjrrr5Ph6tBbkQ==/18778559092796622.jpg"
+}, {
+	"name": "剑三群像·江湖意",
+	"artist": "群星",
+	"url": "https://music.163.com/song/media/outer/url?id=28285725.mp3",
+	"cover": "http://p2.music.126.net/RDQy2q05vy6SArA9W2LZ-Q==/3295236350128133.jpg"
+}, {
+	"name": "不悔",
+	"artist": "小曲儿,HITA",
+	"url": "https://music.163.com/song/media/outer/url?id=175534.mp3",
+	"cover": "http://p2.music.126.net/ngsFhZ5RGjvqdW7x-EmA3g==/94557999989684.jpg"
+}, {
+	"name": "梅子黄尽时",
+	"artist": "smile_小千",
+	"url": "https://music.163.com/song/media/outer/url?id=28661896.mp3",
+	"cover": "http://p2.music.126.net/t8worC_CQVcgvcA708-QlQ==/5968149115899839.jpg"
+}, {
+	"name": "权御天下(念白付)",
+	"artist": "凑诗",
+	"url": "https://music.163.com/song/media/outer/url?id=30987926.mp3",
+	"cover": "http://p2.music.126.net/J3VtOLW7ilNc0byWk37n3g==/3387595325986974.jpg"
+}, {
+	"name": "剑啸江湖",
+	"artist": "小曲儿",
+	"url": "https://music.163.com/song/media/outer/url?id=29357029.mp3",
+	"cover": "http://p2.music.126.net/IXyIZp__D2uHYVj7NBVrwg==/5985741302175547.jpg"
+}, {
+	"name": "醉今朝",
+	"artist": "祝贺,W.K.",
+	"url": "https://music.163.com/song/media/outer/url?id=297245.mp3",
+	"cover": "http://p2.music.126.net/hLIibh6fF3TZVXdzfm_aAA==/18141941859036324.jpg"
+}, {
+	"name": "春醪独抚 ",
+	"artist": "紫凌孤君,祝贺",
+	"url": "https://music.163.com/song/media/outer/url?id=29984040.mp3",
+	"cover": "http://p2.music.126.net/Kog7y33jJpr3R2foHGuXhQ==/2539871862571110.jpg"
+}, {
+	"name": "采茶纪",
+	"artist": "双笙",
+	"url": "https://music.163.com/song/media/outer/url?id=36895537.mp3",
+	"cover": "http://p1.music.126.net/1y_TLp7bftROMh-OeuL3mA==/18336555416528366.jpg"
+}, {
+	"name": "崖山之前，江山一夜",
+	"artist": "梦璟SAYA",
+	"url": "https://music.163.com/song/media/outer/url?id=28762533.mp3",
+	"cover": "http://p1.music.126.net/jqsIewB-vWFwyxUn_keKJQ==/6016527627848623.jpg"
+}, {
+	"name": "谁主沉浮.千秋诉（Cover ENA）",
+	"artist": "梦璟SAYA",
+	"url": "https://music.163.com/song/media/outer/url?id=279687.mp3",
+	"cover": "http://p1.music.126.net/qY9KWAC2v921C_WKOPKcXw==/109951163112518274.jpg"
+}, {
+	"name": "莫问今朝",
+	"artist": "音频怪物",
+	"url": "https://music.163.com/song/media/outer/url?id=184445.mp3",
+	"cover": "http://p1.music.126.net/es5wc1arpOXuRYgcbUfFFg==/36283883717811.jpg"
+}, {
+	"name": "酩酊语 其三 棠红棣雪",
+	"artist": "山猫",
+	"url": "https://music.163.com/song/media/outer/url?id=27908082.mp3",
+	"cover": "http://p1.music.126.net/Z5WVnSloIQ8nqBdLpEru-Q==/3305131954153665.jpg"
+}, {
+	"name": "溯世书",
+	"artist": "音频怪物",
+	"url": "https://music.163.com/song/media/outer/url?id=184406.mp3",
+	"cover": "http://p1.music.126.net/tOydpWyBFW1nAsVaiuqJYA==/120946279068606.jpg"
+}, {
+	"name": "清明上河图",
+	"artist": "李玉刚",
+	"url": "https://music.163.com/song/media/outer/url?id=132316.mp3",
+	"cover": "http://p1.music.126.net/izy0ff5jfpPrW9ShXKidaA==/91259465118117.jpg"
+}, {
+	"name": "隐",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=28452037.mp3",
+	"cover": "http://p1.music.126.net/RB2IpsG1ajiQbF_HfR35IQ==/5953855464601395.jpg"
+}, {
+	"name": "墨衣",
+	"artist": "不才",
+	"url": "https://music.163.com/song/media/outer/url?id=28828196.mp3",
+	"cover": "http://p1.music.126.net/5vLpAQplaeMwEuhDO0HXww==/5852700394904058.jpg"
+}, {
+	"name": "春意远",
+	"artist": "林斜阳",
+	"url": "https://music.163.com/song/media/outer/url?id=33075133.mp3",
+	"cover": "http://p1.music.126.net/RbJ9YEWzu4bcs0nar35A3w==/109951163926970215.jpg"
+}, {
+	"name": "参商(纯歌版)",
+	"artist": "不才",
+	"url": "https://music.163.com/song/media/outer/url?id=29719651.mp3",
+	"cover": "http://p1.music.126.net/izdGjlRlcR3sx26OXZOiHw==/6631154628171782.jpg"
+}, {
+	"name": "故人叹",
+	"artist": "吴琼",
+	"url": "https://music.163.com/song/media/outer/url?id=302891.mp3",
+	"cover": "http://p1.music.126.net/Q0HlZVp-3sgbpJW8v0jufA==/117647744190029.jpg"
+}, {
+	"name": "我执",
+	"artist": "NL不分,阿睿凌霓剑裳",
+	"url": "https://music.163.com/song/media/outer/url?id=29827166.mp3",
+	"cover": "http://p1.music.126.net/Adh5bQHsR8rACTR65jm6TA==/3240260767930883.jpg"
+}, {
+	"name": "鹃",
+	"artist": "Tacke竹桑,小曲儿",
+	"url": "https://music.163.com/song/media/outer/url?id=28188263.mp3",
+	"cover": "http://p1.music.126.net/9Oyd_61-tp1OsLeHPiVuNg==/5860396976152190.jpg"
+}, {
+	"name": "齐天",
+	"artist": "NL不分,祝贺",
+	"url": "https://music.163.com/song/media/outer/url?id=30089456.mp3",
+	"cover": "http://p1.music.126.net/Kog7y33jJpr3R2foHGuXhQ==/2539871862571110.jpg"
+}, {
+	"name": "倾尽天下",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=366291.mp3",
+	"cover": "http://p1.music.126.net/SMnGWKnnfnlTdi9E8-O3zA==/120946279068522.jpg"
+}, {
+	"name": "闻说",
+	"artist": "音频怪物,HITA",
+	"url": "https://music.163.com/song/media/outer/url?id=184400.mp3",
+	"cover": "http://p1.music.126.net/nN0ZBgvVJ1d2I00eY2nWqQ==/89060441862988.jpg"
+}, {
+	"name": "寸心笑傲",
+	"artist": "绯村柯北",
+	"url": "https://music.163.com/song/media/outer/url?id=28592868.mp3",
+	"cover": "http://p1.music.126.net/L9CfhB8IUN06kfpIY1C5gQ==/6061607604380494.jpg"
+}, {
+	"name": "长歌行",
+	"artist": "i2star",
+	"url": "https://music.163.com/song/media/outer/url?id=35617509.mp3",
+	"cover": "http://p1.music.126.net/PLU5Eqkg9PR8mDDuFo6q9w==/3410685070284421.jpg"
+}, {
+	"name": "霁夜茶",
+	"artist": "小曲儿",
+	"url": "https://music.163.com/song/media/outer/url?id=28188385.mp3",
+	"cover": "http://p1.music.126.net/f9iaz8pm3RDJP8JHauqp8A==/109951163865781664.jpg"
+}, {
+	"name": "剑三·明教—【日月明尊】",
+	"artist": "阿睿凌霓剑裳",
+	"url": "https://music.163.com/song/media/outer/url?id=29567787.mp3",
+	"cover": "http://p1.music.126.net/fhxLLN4eqbX1bW9eGaTmSg==/2538772349388939.jpg"
+}, {
+	"name": "侠义",
+	"artist": "五色石南叶,Tacke竹桑",
+	"url": "https://music.163.com/song/media/outer/url?id=27928577.mp3",
+	"cover": "http://p2.music.126.net/JpuFCURTev96fAs-uWxohg==/5842804790012167.jpg"
+}, {
+	"name": "千秋月别西楚将",
+	"artist": "EDIQ",
+	"url": "https://music.163.com/song/media/outer/url?id=81637.mp3",
+	"cover": "http://p2.music.126.net/Pdhfy3roemobzUtE8njlUg==/25288767450966.jpg"
+}, {
+	"name": "混沌",
+	"artist": "流月",
+	"url": "https://music.163.com/song/media/outer/url?id=274598.mp3",
+	"cover": "http://p2.music.126.net/WMWzXcUKCA9ul1I6crWH2g==/18680702557672934.jpg"
+}, {
+	"name": "楚狂",
+	"artist": "祝贺,NL不分",
+	"url": "https://music.163.com/song/media/outer/url?id=29709842.mp3",
+	"cover": "http://p2.music.126.net/izdGjlRlcR3sx26OXZOiHw==/6631154628171782.jpg"
+}, {
+	"name": "江影沉浮",
+	"artist": "刺青",
+	"url": "https://music.163.com/song/media/outer/url?id=29539306.mp3",
+	"cover": "http://p2.music.126.net/kCq2Wk7BMN9O18N8RfIGbA==/2536573326366499.jpg"
+}, {
+	"name": "凡夫俗子",
+	"artist": "墨明棋妙",
+	"url": "https://music.163.com/song/media/outer/url?id=366395.mp3",
+	"cover": "http://p2.music.126.net/s1h2RRRwu2NJFVzuEypqyA==/103354093023052.jpg"
+}, {
+	"name": "为龙",
+	"artist": "河图",
+	"url": "https://music.163.com/song/media/outer/url?id=101085.mp3",
+	"cover": "http://p2.music.126.net/xHVVFtjMmq4cM9xllO52yQ==/101155069767537.jpg"
+}, {
+	"name": "魅影醉",
+	"artist": "少司命",
+	"url": "https://music.163.com/song/media/outer/url?id=29095517.mp3",
+	"cover": "http://p2.music.126.net/tHAfnugCElS93EDp5cHLIw==/8909342719897560.jpg"
+}, {
+	"name": "烟雨行舟",
+	"artist": "伦桑",
+	"url": "https://music.163.com/song/media/outer/url?id=32922246.mp3",
+	"cover": "http://p2.music.126.net/-2PG50CSPWywCQ6GGpWphQ==/7947270045631279.jpg"
+}, {
+	"name": "佛说2",
+	"artist": "音频怪物",
+	"url": "https://music.163.com/song/media/outer/url?id=28996876.mp3",
+	"cover": "http://p2.music.126.net/nqb_IzPbdn9qAHZ6DhKB0g==/6627856092289141.jpg"
+}, {
+	"name": "醉春秋",
+	"artist": "石头",
+	"url": "https://music.163.com/song/media/outer/url?id=28535019.mp3",
+	"cover": "http://p2.music.126.net/D22IKBn-eUq-EebVSbAuJA==/5934064255276851.jpg"
+}, {
+	"name": "剑三成男群像·归离",
+	"artist": "一群人",
+	"url": "https://music.163.com/song/media/outer/url?id=29769312.mp3",
+	"cover": "http://p2.music.126.net/izdGjlRlcR3sx26OXZOiHw==/6631154628171782.jpg"
+}, {
+	"name": "爱殇",
+	"artist": "小时姑娘",
+	"url": "https://music.163.com/song/media/outer/url?id=28315295.mp3",
+	"cover": "http://p2.music.126.net/XhAthErESZVYQenvbwepRw==/109951163870853084.jpg"
+}, {
+	"name": "红尘",
+	"artist": "小曲儿",
+	"url": "https://music.163.com/song/media/outer/url?id=175576.mp3",
+	"cover": "http://p2.music.126.net/t0ImdL5lbENKIhnLw7FMNQ==/47279000006737.jpg"
+}, {
+	"name": "侠客某",
+	"artist": "祝贺",
+	"url": "https://music.163.com/song/media/outer/url?id=29732300.mp3",
+	"cover": "http://p2.music.126.net/6_YrXV-C1pwA6mqgpc-AwA==/3244658814290156.jpg"
+}, {
+	"name": "缘生意转",
+	"artist": "司夏,河图",
+	"url": "https://music.163.com/song/media/outer/url?id=29122617.mp3",
+	"cover": "http://p2.music.126.net/IXyIZp__D2uHYVj7NBVrwg==/5985741302175547.jpg"
+}, {
+	"name": "石楠小札",
+	"artist": "蔡翊昇",
+	"url": "https://music.163.com/song/media/outer/url?id=29005132.mp3",
+	"cover": "http://p2.music.126.net/tHAfnugCElS93EDp5cHLIw==/8909342719897560.jpg"
+}, {
+	"name": "眉间雪",
+	"artist": "HITA",
+	"url": "https://music.163.com/song/media/outer/url?id=29567100.mp3",
+	"cover": "http://p2.music.126.net/fhxLLN4eqbX1bW9eGaTmSg==/2538772349388939.jpg"
+}, {
+	"name": "风花雪月",
+	"artist": "林斜阳,紫堂宿",
+	"url": "https://music.163.com/song/media/outer/url?id=32174251.mp3",
+	"cover": "http://p2.music.126.net/aMZS6jTuJg3J_eaykzUP7w==/2931298000136969.jpg"
+}, {
+	"name": "惊蛰·归云",
+	"artist": "只有影子,兰芽yaya",
+	"url": "https://music.163.com/song/media/outer/url?id=31062292.mp3",
+	"cover": "http://p2.music.126.net/jV3wsxNdLiufkG92VFvZAg==/7747158929826603.jpg"
+}, {
+	"name": "帝梦.执天之行",
+	"artist": "Tacke竹桑",
+	"url": "https://music.163.com/song/media/outer/url?id=29825673.mp3",
+	"cover": "http://p2.music.126.net/ypTRxTI1UvaRZ_OqIO0h4A==/3240260769629723.jpg"
+}, {
+	"name": "酣梦. 霜刀听雪",
+	"artist": "Tacke竹桑",
+	"url": "https://music.163.com/song/media/outer/url?id=29825641.mp3",
+	"cover": "http://p2.music.126.net/ypTRxTI1UvaRZ_OqIO0h4A==/3240260769629723.jpg"
+}, {
+	"name": "噩梦.裂",
+	"artist": "Tacke竹桑,重小烟",
+	"url": "https://music.163.com/song/media/outer/url?id=29825672.mp3",
+	"cover": "http://p2.music.126.net/ypTRxTI1UvaRZ_OqIO0h4A==/3240260769629723.jpg"
+}, {
+	"name": "侠梦.剑锋落拓",
+	"artist": "Tacke竹桑",
+	"url": "https://music.163.com/song/media/outer/url?id=31460198.mp3",
+	"cover": "http://p2.music.126.net/ypTRxTI1UvaRZ_OqIO0h4A==/3240260769629723.jpg"
+}, {
+	"name": "霜雪千年",
+	"artist": "萧忆情Alex",
+	"url": "https://music.163.com/song/media/outer/url?id=36496389.mp3",
+	"cover": "http://p2.music.126.net/srjmIxgdjRlCXSjZtl2aaw==/109951163825045428.jpg"
+}, {
+	"name": "牵丝戏",
+	"artist": "西瓜JUN",
+	"url": "https://music.163.com/song/media/outer/url?id=34072193.mp3",
+	"cover": "http://p2.music.126.net/dbNkAQmHi2TUzgkE7Zox1A==/3318326092881882.jpg"
+}, {
+	"name": "光之舞",
+	"artist": "Tacke竹桑",
+	"url": "https://music.163.com/song/media/outer/url?id=37764195.mp3",
+	"cover": "http://p2.music.126.net/grurFcUaD7GOZg9DJ4N_mw==/17968219021125264.jpg"
+}, {
+	"name": "障月",
+	"artist": "满汉全席",
+	"url": "https://music.163.com/song/media/outer/url?id=32196769.mp3",
+	"cover": "http://p2.music.126.net/aMZS6jTuJg3J_eaykzUP7w==/2931298000136969.jpg"
+}, {
+	"name": "弱水三千（cover 石头/张晓棠）",
+	"artist": "W.K.",
+	"url": "https://music.163.com/song/media/outer/url?id=28445950.mp3",
+	"cover": "http://p1.music.126.net/QPpIkYq7T3Ab0X12nrVmjQ==/109951163011486170.jpg"
+}, {
+	"name": "千年空城",
+	"artist": "东篱",
+	"url": "https://music.163.com/song/media/outer/url?id=29728123.mp3",
+	"cover": "http://p1.music.126.net/jQ2fRS91t3KI2bx9f9MTuw==/3229265651489113.jpg"
+}, {
+	"name": "卷珠帘",
+	"artist": "霍尊",
+	"url": "https://music.163.com/song/media/outer/url?id=28182126.mp3",
+	"cover": "http://p1.music.126.net/dcZBbj62pAPdpOyYLwc-1w==/5849401859918772.jpg"
+}, {
+	"name": "红尘客栈",
+	"artist": "周杰伦",
+	"url": "https://music.163.com/song/media/outer/url?id=25641368.mp3",
+	"cover": "http://p1.music.126.net/oL_TYdmT9mm_erNZb187_g==/109951163533013578.jpg"
+}, {
+	"name": "烟花易冷",
+	"artist": "周杰伦",
+	"url": "https://music.163.com/song/media/outer/url?id=185668.mp3",
+	"cover": "http://p1.music.126.net/4E5b_0eDTiMCzYKiVSAerw==/19165587184063665.jpg"
+}, {
+	"name": "东风破",
+	"artist": "周杰伦",
+	"url": "https://music.163.com/song/media/outer/url?id=186018.mp3",
+	"cover": "http://p1.music.126.net/yjVbsgfNeF2h7fIvnxuZDQ==/18894007811887644.jpg"
+}, {
+	"name": "兰亭序",
+	"artist": "周杰伦",
+	"url": "https://music.163.com/song/media/outer/url?id=185701.mp3",
+	"cover": "http://p1.music.126.net/HBanuZpt8SD2kf15AFa6Og==/109951163200234839.jpg"
+}, {
+	"name": "生别离·永别离",
+	"artist": "东篱",
+	"url": "https://music.163.com/song/media/outer/url?id=28853555.mp3",
+	"cover": "http://p1.music.126.net/53AwkMucIiUdQXtTi58PJg==/5971447651011720.jpg"
+}, {
+	"name": "鼓与花",
+	"artist": "墨明棋妙",
+	"url": "https://music.163.com/song/media/outer/url?id=28957362.mp3",
+	"cover": "http://p1.music.126.net/jlAUlLnQG7NgHmOk16BZyw==/8900546627235477.jpg"
+}, {
+	"name": "花满楼",
+	"artist": "小魂",
+	"url": "https://music.163.com/song/media/outer/url?id=31062977.mp3",
+	"cover": "http://p1.music.126.net/ZUTOV4xUZWbqYdJIdqAhaQ==/7719671139148874.jpg"
+}, {
+	"name": "悟惊蛰",
+	"artist": "猫饭",
+	"url": "https://music.163.com/song/media/outer/url?id=28267589.mp3",
+	"cover": "http://p1.music.126.net/RHc65y1sgSKTx3LCqRix7Q==/6008831045869295.jpg"
+}, {
+	"name": "古龙群侠传",
+	"artist": "小魂",
+	"url": "https://music.163.com/song/media/outer/url?id=31370656.mp3",
+	"cover": "http://p1.music.126.net/ly2FJHh5-lYMdC3NZxvavQ==/7714173580661848.jpg"
+}, {
+	"name": "茶女",
+	"artist": "茶少",
+	"url": "https://music.163.com/song/media/outer/url?id=366007.mp3",
+	"cover": "http://p1.music.126.net/MbWestK50FE0vjv1pHiQeQ==/53876069774141.jpg"
+}, {
+	"name": "松烟入墨",
+	"artist": "Winky诗",
+	"url": "https://music.163.com/song/media/outer/url?id=28765208.mp3",
+	"cover": "http://p1.music.126.net/rZ1304NRFlC3a1KoJD-t2A==/109951163781615257.jpg"
+}]

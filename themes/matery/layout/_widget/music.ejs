@@ -19,8 +19,13 @@ var audiosJson = JSON.stringify(site.data.musics);
 <script src="<%- theme.libs.js.aplayer %>"></script>
 <script>
 $(function () {
-    $.getJSON('https://music.163.com/api/playlist/detail',{id:'<%- theme.music.wyplaylist %>'},function(data){
-        var msl=data.result.tracks;
+
+   // /*
+   //https://music.163.com/api/playlist/detail?id=131915944
+   //原地址受跨域影响，使用第三方api  https://v1.itooi.cn/netease/songList获取
+    $.getJSON('https://v1.itooi.cn/netease/songList',{id:'<%- theme.music.wyplaylist %>'},function(data){
+        var msl=data.data.tracks;//第三方api数据结构
+        // var msl=data.result.tracks;//官方数据结构
         var m_json=new Array()
         for(var i=0;i<msl.length;i++){
             var m_m={};
@@ -39,7 +44,7 @@ $(function () {
             m_m.cover=m_pic;
             m_json[i]=m_m;
         }
-        // console.log(m_json);
+        console.log(JSON.stringify(m_json));
         new APlayer({
             container: document.getElementById('aplayer'),
             fixed: '<%- theme.music.fixed %>' === 'true',
@@ -51,9 +56,25 @@ $(function () {
             volume: Number('<%- theme.music.volume %>'),
             listFolded: '<%- theme.music.listFolded %>' === 'true',
             listMaxHeight: '<%- theme.music.listMaxHeight %>',
-            audio: m_json
+            audio: m_json //audiosJson //m_json
         });
     });
 
+   // */
+    /*
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: '<%- theme.music.fixed %>' === 'true',
+        autoplay: '<%- theme.music.autoplay %>' === 'true',
+        theme: '<%- theme.music.theme %>',
+        loop: '<%- theme.music.loop %>',
+        order: '<%- theme.music.order %>',
+        preload: '<%- theme.music.preload %>',
+        volume: Number('<%- theme.music.volume %>'),
+        listFolded: '<%- theme.music.listFolded %>' === 'true',
+        listMaxHeight: '<%- theme.music.listMaxHeight %>',
+        audio: JSON.parse('<%- audiosJson %>')
+    });
+    */
 });
 </script>
