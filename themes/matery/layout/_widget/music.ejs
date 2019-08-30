@@ -19,18 +19,41 @@ var audiosJson = JSON.stringify(site.data.musics);
 <script src="<%- theme.libs.js.aplayer %>"></script>
 <script>
 $(function () {
-    new APlayer({
-        container: document.getElementById('aplayer'),
-        fixed: '<%- theme.music.fixed %>' === 'true',
-        autoplay: '<%- theme.music.autoplay %>' === 'true',
-        theme: '<%- theme.music.theme %>',
-        loop: '<%- theme.music.loop %>',
-        order: '<%- theme.music.order %>',
-        preload: '<%- theme.music.preload %>',
-        volume: Number('<%- theme.music.volume %>'),
-        listFolded: '<%- theme.music.listFolded %>' === 'true',
-        listMaxHeight: '<%- theme.music.listMaxHeight %>',
-        audio: JSON.parse('<%- audiosJson %>')
+    $.getJSON('https://music.163.com/api/playlist/detail',{id:'<%- theme.music.wyplaylist %>'},function(data){
+        var msl=data.result.tracks;
+        var m_json=new Array()
+        for(var i=0;i<msl.length;i++){
+            var m_m={};
+            var ms=msl[i];
+            var m_artist="";//歌手
+            for(var j=0;j<ms.artists.length;j++){
+                if(m_artist!="")m_artist+=",";
+                m_artist+=ms.artists[j].name;
+            }
+            var m_name=ms.name;//歌名
+            var m_id=ms.id;//歌曲id
+            var m_pic=ms.album.picUrl;//歌曲图片
+            m_m.name=m_name;
+            m_m.artist=m_artist;
+            m_m.url='https://music.163.com/song/media/outer/url?id='+m_id+'.mp3';
+            m_m.cover=m_pic;
+            m_json[i]=m_m;
+        }
+        // console.log(m_json);
+        new APlayer({
+            container: document.getElementById('aplayer'),
+            fixed: '<%- theme.music.fixed %>' === 'true',
+            autoplay: '<%- theme.music.autoplay %>' === 'true',
+            theme: '<%- theme.music.theme %>',
+            loop: '<%- theme.music.loop %>',
+            order: '<%- theme.music.order %>',
+            preload: '<%- theme.music.preload %>',
+            volume: Number('<%- theme.music.volume %>'),
+            listFolded: '<%- theme.music.listFolded %>' === 'true',
+            listMaxHeight: '<%- theme.music.listMaxHeight %>',
+            audio: m_json
+        });
     });
+
 });
 </script>

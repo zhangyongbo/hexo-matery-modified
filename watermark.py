@@ -17,8 +17,7 @@ def watermark(post_name):
             print(files)
         font = ImageFont.truetype('STSONG.TTF', max(30, int(im.size[1] / 20)))
         draw = ImageDraw.Draw(im)
-        draw.text((im.size[0] / 2, im.size[1] / 2),
-                  u'@zhangyongbo', fill=(0, 0, 0), font=font)
+        draw.text((im.size[0] / 2, im.size[1] / 2), u'@zhangyongbo', fill=(0, 0, 0), font=font)
         im.save(files)
 
 
