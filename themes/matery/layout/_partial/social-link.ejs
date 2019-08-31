@@ -22,6 +22,12 @@
     </a>
 <% } %>
 
+<% if (theme.socialLink.wechat) { %>
+    <a href="weixin://contacts/profile/<%= theme.socialLink.wechat %>" class="tooltipped" target="_blank" data-tooltip="访问我的QQ空间" data-position="top" data-delay="50">
+        <i class="fa fa-wechat"></i>
+    </a>
+<% } %>
+
 <% if (theme.socialLink.weibo) { %>
     <a href="https://weibo.com/<%= theme.socialLink.weibo %>" class="tooltipped" target="_blank" data-tooltip="关注我的微博" data-position="top" data-delay="50">
         <i class="fa fa-weibo"></i>

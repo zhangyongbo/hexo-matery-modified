@@ -43,7 +43,7 @@ music:
   showTitle: false
   title: 听听音乐
   fixed: false # 开启吸底模式
-  autoplay: true # 是否自动播放
+  autoplay: false # 是否自动播放
   theme: '#542674'
   loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
@@ -91,6 +91,7 @@ socialLink:
   weibo:
   email: china.zhangyongbo@gmail.com
   zhihu:
+  wechat: zybforwx
 
 
 # 是否激活文章 TOC 功能，并配置TOC支持选中哪些标题类型，这是全局配置。
@@ -108,7 +109,7 @@ code:
 reward:
   enable: false
   title: 写作不易，客官能否打赏一杯奶茶？
-  wechat: /medias/reward/wechat.png
+  wechat: /medias/reward/wechat.jpg
   alipay: /medias/reward/alipay.jpg
 
 
@@ -169,26 +170,38 @@ myProjects:
 
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: true
+  enable: false
   data:
     Java:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 90%
-    SQL:
+    Spring、Spring MVC、Spring Boot:
+      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
+      percent: 90%
+    Hibernate、MyBatis:
+      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
+      percent: 90%
+    Activiti:
+      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
+      percent: 80%
+    MySQL、Oracle、SQLServer、KingBase、GBase:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 50%
-    HTML:
+      percent: 80%
+    HTML、JavaScript、JQuery:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 45%
+      percent: 80%
+    Tomcat、WebLogic、TongWeb:
+      background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
+      percent: 80%
 
 
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
   enable: false
   data:
-    - /medias/featureimages/2.jpg
-    - /medias/featureimages/5.jpg
-    - /medias/featureimages/6.jpg
+    - /medias/zyb/0.jpg
+    - /medias/zyb/1.jpg
+    - /medias/zyb/2.jpg
 
 
 # 设置在归档页面中是否显示'文章日历'控件
@@ -219,7 +232,7 @@ gitment:
 # Disqus评论模块的配置，默认为不激活
 disqus:
   enable: false
-  shortname:
+  shortname: china-zyb
 
 # Livere 来必力评论模块的配置，默认为不激活
 livere:
@@ -329,7 +342,87 @@ featureImages:
 - /medias/featureimages/28.jpg
 - /medias/featureimages/29.jpg
 - /medias/featureimages/30.jpg
-- /medias/featureimages/31.jpg
+- /medias/featureimages/32.jpg
+- /medias/featureimages/33.jpg
+- /medias/featureimages/34.jpg
+- /medias/featureimages/35.jpg
+- /medias/featureimages/36.jpg
+- /medias/featureimages/37.jpg
+- /medias/featureimages/38.jpg
+- /medias/featureimages/39.jpg
+- /medias/featureimages/40.jpg
+- /medias/featureimages/41.jpg
+- /medias/featureimages/42.jpg
+- /medias/featureimages/43.jpg
+- /medias/featureimages/44.jpg
+- /medias/featureimages/45.jpg
+- /medias/featureimages/46.jpg
+- /medias/featureimages/47.jpg
+- /medias/featureimages/48.jpg
+- /medias/featureimages/49.jpg
+- /medias/featureimages/50.jpg
+- /medias/featureimages/51.jpg
+- /medias/featureimages/52.jpg
+- /medias/featureimages/53.jpg
+- /medias/featureimages/54.jpg
+- /medias/featureimages/55.jpg
+- /medias/featureimages/56.jpg
+- /medias/featureimages/57.jpg
+- /medias/featureimages/58.jpg
+- /medias/featureimages/59.jpg
+- /medias/featureimages/60.jpg
+- /medias/featureimages/61.jpg
+- /medias/featureimages/62.jpg
+- /medias/featureimages/63.jpg
+- /medias/featureimages/64.jpg
+- /medias/featureimages/65.jpg
+- /medias/featureimages/67.jpg
+- /medias/featureimages/68.jpg
+- /medias/featureimages/69.jpg
+- /medias/featureimages/70.jpg
+- /medias/featureimages/71.jpg
+- /medias/featureimages/72.jpg
+- /medias/featureimages/73.jpg
+- /medias/featureimages/74.jpg
+- /medias/featureimages/75.jpg
+- /medias/featureimages/76.jpg
+- /medias/featureimages/77.jpg
+- /medias/featureimages/78.jpg
+- /medias/featureimages/79.jpg
+- /medias/featureimages/80.jpg
+- /medias/featureimages/81.jpg
+- /medias/featureimages/82.jpg
+- /medias/featureimages/83.jpg
+- /medias/featureimages/84.jpg
+- /medias/featureimages/85.jpg
+- /medias/featureimages/86.jpg
+- /medias/featureimages/87.jpg
+- /medias/featureimages/88.jpg
+- /medias/featureimages/89.jpg
+- /medias/featureimages/90.jpg
+- /medias/featureimages/91.jpg
+- /medias/featureimages/92.jpg
+- /medias/featureimages/93.jpg
+- /medias/featureimages/94.jpg
+- /medias/featureimages/95.jpg
+- /medias/featureimages/96.jpg
+- /medias/featureimages/97.jpg
+- /medias/featureimages/98.jpg
+- /medias/featureimages/99.jpg
+- /medias/featureimages/100.jpg
+- /medias/featureimages/101.jpg
+- /medias/featureimages/102.jpg
+- /medias/featureimages/103.jpg
+- /medias/featureimages/104.jpg
+- /medias/featureimages/105.jpg
+- /medias/featureimages/106.jpg
+- /medias/featureimages/107.jpg
+- /medias/featureimages/108.jpg
+- /medias/featureimages/109.jpg
+- /medias/featureimages/110.jpg
+- /medias/featureimages/111.jpg
+- /medias/featureimages/112.jpg
+- /medias/featureimages/113.jpg
 
 
   # default 配置文章的默认转载规则

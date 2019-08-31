@@ -2,6 +2,7 @@
 title: 关闭Mac OS系统程序崩溃报告
 top: false
 cover: false
+password: ''
 toc: true
 mathjax: true
 summary: >-
@@ -11,7 +12,6 @@ tags:
 categories:
   - Other
 date: 2019-08-28 16:51:26
-password:
 ---
 
 # 关闭崩溃报告显示
