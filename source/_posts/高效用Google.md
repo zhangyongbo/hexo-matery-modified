@@ -1,15 +1,15 @@
 ---
 title: 高效用Google
-top: false
-cover: false
+top: true
+cover: true
 password: ''
 toc: true
 mathjax: true
 summary: >-
   如果票选近二十年最伟大的发明，我相信搜索引擎肯定会占据一个不容小觑的位置，它不单是一项发明，更是一项成就，最大程度消灭了信息的不平等。既然人人都可以接触到海量的信息，那么衡量信息财富多寡就只剩下技巧这惟一的标准了：**善用搜索引擎的都是信息时代的富翁，不懂搜索引擎的都是信息时代的负翁**。
 tags:
-  - google
   - 转
+  - google
 categories:
   - Other
 date: 2019-08-28 15:13:07
