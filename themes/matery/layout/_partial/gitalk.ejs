@@ -6,6 +6,7 @@
 </div>
 
 <script src="<%- theme.libs.js.gitalk %>"></script>
+<script src="<%- theme.libs.js.md5 %>"></script>
 <script>
     let gitalk = new Gitalk({
         clientID: '<%- theme.gitalk.oauth.clientId %>',
@@ -13,7 +14,7 @@
         repo: '<%- theme.gitalk.repo %>',
         owner: '<%- theme.gitalk.owner %>',
         admin: <%- JSON.stringify(theme.gitalk.admin) %>,
-        id: '<%- page.path %>',
+        id: md5('<%- page.path %>'),
         createIssueManually:false,
         distractionFreeMode: false  // Facebook-like distraction free mode
     });

@@ -1,0 +1,11 @@
+# Group 1
+
+User-agent: *
+Allow: /
+Allow: /archives/
+Disallow: /js/
+Disallow: /libs/
+Disallow: /css/
+Disallow: /medias/
+Sitemap: https://zhangyongbo.github.io/sitemap.xml
+Sitemap: https://zhangyongbo.github.io/baidusitemap.xml

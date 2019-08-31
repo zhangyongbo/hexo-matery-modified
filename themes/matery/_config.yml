@@ -308,6 +308,8 @@ libs:
     gitalk: /libs/gitalk/gitalk.min.js
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
+    md5: /libs/others/md5.min.js
+
 
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
