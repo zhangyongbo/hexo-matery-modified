@@ -20,11 +20,12 @@ var audiosJson = JSON.stringify(site.data.musics);
 <script>
 $(function () {
 
-   // /*
+    /*
    //https://music.163.com/api/playlist/detail?id=131915944
    //原地址受跨域影响，使用第三方api  https://v1.itooi.cn/netease/songList获取
    //https://api.imjad.cn/cloudmusic?id=131915944&type=playlist
-    $.getJSON('https://api.imjad.cn/cloudmusic',{id:'<%- theme.music.wyplaylist %>',type:'playlist'},function(data){
+   //https://api.imjad.cn/cloudmusic/?id=416388799&type=detail //获取歌曲详情，type=playlist获取的tracks节点只有10首歌，trackIds节点有歌单所有歌曲id
+    $.getJSON('https://v1.itooi.cn/netease/songList',{id:'<%- theme.music.wyplaylist %>',type:'playlist'},function(data){
         var msl=data.playlist.tracks;//第三方api数据结构
         // var msl=data.result.tracks;//官方数据结构
         var m_json=new Array()
@@ -61,8 +62,8 @@ $(function () {
         });
     });
 
-   // */
-    /*
+    */
+   // /*
     new APlayer({
         container: document.getElementById('aplayer'),
         fixed: '<%- theme.music.fixed %>' === 'true',
@@ -76,6 +77,6 @@ $(function () {
         listMaxHeight: '<%- theme.music.listMaxHeight %>',
         audio: JSON.parse('<%- audiosJson %>')
     });
-    */
+  //  */
 });
 </script>
