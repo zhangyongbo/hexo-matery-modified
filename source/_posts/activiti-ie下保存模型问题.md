@@ -7,7 +7,6 @@ toc: true
 mathjax: true
 summary: activiti在IE下保存模型失败
 tags:
-  - Java
   - Activiti
   - 转
 categories:

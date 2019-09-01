@@ -7,7 +7,6 @@ toc: true
 mathjax: true
 summary: JMail收取邮件，采用网上找的demo，并对其中的邮件格式有误的地址添加解析方法。
 tags:
-  - Java
   - JMail
 categories:
   - Java

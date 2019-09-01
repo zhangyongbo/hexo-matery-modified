@@ -7,7 +7,6 @@ toc: true
 mathjax: true
 summary: Java后台使用HttpURLConnection进行http请求调用
 tags:
-  - Java
   - Http
 categories:
   - Java

@@ -7,7 +7,6 @@ toc: true
 mathjax: true
 summary: 解决activiti生成的流程跟踪图，连接线上面没有描述文字问题。
 tags:
-  - Java
   - Activiti
 categories:
   - Java

@@ -7,7 +7,6 @@ toc: true
 mathjax: true
 summary: 根据流程id获取流程实时跟踪图，已执行节点线路标红。
 tags:
-  - Java
   - Activiti
 categories:
   - Java

@@ -7,7 +7,6 @@ toc: true
 mathjax: true
 summary: 获取activiti的模型图片或部署流程图片
 tags:
-  - Java
   - Activiti
 categories:
   - Java
