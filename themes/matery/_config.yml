@@ -48,7 +48,7 @@ music:
   loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  volume: 0.5 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: false # 列表默认折叠
   listMaxHeight: '135px' #列表最大高度
   wyplaylist: '131915944' #网易云音乐歌单id
@@ -115,7 +115,7 @@ reward:
 
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
-  enable: true
+  enable: false
   minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
@@ -144,7 +144,7 @@ clicklove:
 profile:
   avatar: /medias/zyb.jpg
   career: JAVA | CMS | ACTIVITI
-  introduction: 一个Java方向的小码农，主要从事CMS系统的研发工作，有多年的智慧政务经验
+  introduction: 一个Java方向的小码农，从事CMS、Portal、智慧政务、智能运维系统的研发工作
 
 
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
@@ -445,5 +445,5 @@ featureImages:
   # noreprint  不允许转载
   # pay  付费转载
 reprint:
-  enable: true # 是否启用“转载规则限定模块”
+  enable: false # 是否启用“转载规则限定模块”
   default: cc_by
