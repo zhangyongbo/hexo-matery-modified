@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://china_zyb.gitee.io/zyb
+url: http://china_zyb.gitee.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -112,7 +112,7 @@ theme: matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repository: git@gitee.com:china_zyb/zyb.git
+  repository: git@gitee.com:china_zyb/china_zyb.git
   branch: master
 
 - type: baidu_url_submitter
@@ -138,6 +138,6 @@ live2d:
 
 baidu_url_submit:
   count: 100
-  host: china_zyb.gitee.io/zyb
+  host: china_zyb.gitee.io
   token:
   path: baidu_urls.txt
