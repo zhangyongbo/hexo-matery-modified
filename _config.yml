@@ -29,10 +29,10 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :title.md # 新帖子的文件名
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+external_link: true # 在新标签页中打开外部链接
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -42,16 +42,22 @@ highlight:
   enable: false
   line_number: false
   auto_detect: false
-  tab_replace: ''
+  tab_replace: '  '
   wrap: false
   hljs: true
+
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: false
+  tab_replace: '  '
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
-  line_number: true    # default false
+  line_number: false    # default false
   custom_css:
-  tab_replace: ''
+
 
 search:
   path: search.xml
