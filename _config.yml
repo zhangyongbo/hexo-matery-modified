@@ -42,13 +42,16 @@ highlight:
   enable: false
   line_number: false
   auto_detect: false
-  tab_replace:
+  tab_replace: ''
+  wrap: false
+  hljs: true
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
-  line_number: false    # default false
+  line_number: true    # default false
   custom_css:
+  tab_replace: ''
 
 search:
   path: search.xml

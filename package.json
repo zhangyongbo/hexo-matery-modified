@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "5.0.0"
+    "version": "5.2.0"
   },
   "dependencies": {
     "eslint": "^7.6.0",
-    "hexo": "^5.0.0",
+    "hexo": "^5.1.0",
     "hexo-baidu-url-submit": "0.0.6",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
@@ -25,6 +25,8 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "npm-check": "^5.9.2",
+    "npm-upgrade": "^2.0.4"
   }
 }
