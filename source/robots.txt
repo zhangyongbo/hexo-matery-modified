@@ -7,5 +7,5 @@ Disallow: /js/
 Disallow: /libs/
 Disallow: /css/
 Disallow: /medias/
-Sitemap: https://zhangyongbo.github.io/sitemap.xml
-Sitemap: https://zhangyongbo.github.io/baidusitemap.xml
+Sitemap: https://china_zyb.gitee.io/sitemap.xml
+Sitemap: https://china_zyb.gitee.io/baidusitemap.xml
